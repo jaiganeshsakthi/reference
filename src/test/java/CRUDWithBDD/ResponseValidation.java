@@ -22,7 +22,7 @@ public class ResponseValidation {
 		 res.then().log().all();
 		
 	}
-	
+/*	
 	@Test
 	public void getPractitioner() {
 		String expData="Bachelor of Science";
@@ -34,7 +34,7 @@ public class ResponseValidation {
 		 res.then().log().all();
 		
 	}
-	
+	*/
 	
 	@Test
 	public void getOrganisation() {
