@@ -79,6 +79,90 @@
     <version>2.2</version>
     <scope>test</scope>
 </dependency>
-</dependencies>
 
+ <!-- Profiles for suite execution thru cmd line -->
+
+</dependencies>
+ <profiles>
+  <profile>
+  <build>
+  <pluginManagement>
+  <plugins>
+        <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>3.0.0-M5</version>
+        <configuration>
+          <suiteXmlFiles>
+            <suiteXmlFile>testng.xml</suiteXmlFile>
+          </suiteXmlFiles>
+        </configuration>
+      </plugin>
+        </plugins>
+  </pluginManagement>
+  </build>
+  </profile>
+  
+    <profile>
+  <id>reggression</id>
+  <build>
+  <pluginManagement>
+  <plugins>
+        <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>3.0.0-M5</version>
+        <configuration>
+          <suiteXmlFiles>
+            <suiteXmlFile>testng-RegressionSuite.xml</suiteXmlFile>
+          </suiteXmlFiles>
+        </configuration>
+      </plugin>
+        </plugins>
+  </pluginManagement>
+  </build>
+  </profile>
+  
+  
+ <profile>
+  <id>batch</id>
+  <build>
+  <pluginManagement>
+  <plugins>
+        <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>3.0.0-M5</version>
+        <configuration>
+          <suiteXmlFiles>
+            <suiteXmlFile>testng_FullRegression-Batch.xml</suiteXmlFile>
+          </suiteXmlFiles>
+        </configuration>
+      </plugin>
+        </plugins>
+  </pluginManagement>
+  </build>
+  </profile>
+  
+  
+   <profile>
+  <id>failed</id>
+  <build>
+  <pluginManagement>
+  <plugins>
+        <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>3.0.0-M5</version>
+        <configuration>
+          <suiteXmlFiles>
+            <suiteXmlFile>testng-failed.xml</suiteXmlFile>
+          </suiteXmlFiles>
+        </configuration>
+      </plugin>
+        </plugins>
+  </pluginManagement>
+  </build>
+  </profile>
+  </profiles>
 </project>
