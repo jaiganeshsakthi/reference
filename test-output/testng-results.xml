@@ -2,54 +2,54 @@
 <testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-01T13:20:40 IST" name="Suite" finished-at="2022-08-01T13:20:51 IST" duration-ms="11519">
+  <suite started-at="2022-08-01T14:26:15 IST" name="Suite" finished-at="2022-08-01T14:26:26 IST" duration-ms="11195">
     <groups>
     </groups>
-    <test started-at="2022-08-01T13:20:40 IST" name="Test" finished-at="2022-08-01T13:20:51 IST" duration-ms="11519">
+    <test started-at="2022-08-01T14:26:15 IST" name="Test" finished-at="2022-08-01T14:26:26 IST" duration-ms="11195">
       <class name="CRUDWithBDD.GetResponse">
-        <test-method signature="getImmunization()[pri:0, instance:CRUDWithBDD.GetResponse@4dbb42b7]" started-at="2022-08-01T13:20:46 IST" name="getImmunization" finished-at="2022-08-01T13:20:47 IST" duration-ms="644" status="PASS">
+        <test-method signature="getImmunization()[pri:0, instance:CRUDWithBDD.GetResponse@4dbb42b7]" started-at="2022-08-01T14:26:22 IST" name="getImmunization" finished-at="2022-08-01T14:26:23 IST" duration-ms="637" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getImmunization -->
-        <test-method signature="getLocation()[pri:0, instance:CRUDWithBDD.GetResponse@4dbb42b7]" started-at="2022-08-01T13:20:47 IST" name="getLocation" finished-at="2022-08-01T13:20:48 IST" duration-ms="601" status="PASS">
+        <test-method signature="getLocation()[pri:0, instance:CRUDWithBDD.GetResponse@4dbb42b7]" started-at="2022-08-01T14:26:23 IST" name="getLocation" finished-at="2022-08-01T14:26:23 IST" duration-ms="592" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getLocation -->
-        <test-method signature="getObservation()[pri:0, instance:CRUDWithBDD.GetResponse@4dbb42b7]" started-at="2022-08-01T13:20:48 IST" name="getObservation" finished-at="2022-08-01T13:20:48 IST" duration-ms="643" status="PASS">
+        <test-method signature="getObservation()[pri:0, instance:CRUDWithBDD.GetResponse@4dbb42b7]" started-at="2022-08-01T14:26:23 IST" name="getObservation" finished-at="2022-08-01T14:26:24 IST" duration-ms="616" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getObservation -->
-        <test-method signature="getOrganization()[pri:0, instance:CRUDWithBDD.GetResponse@4dbb42b7]" started-at="2022-08-01T13:20:48 IST" name="getOrganization" finished-at="2022-08-01T13:20:49 IST" duration-ms="615" status="PASS">
+        <test-method signature="getOrganization()[pri:0, instance:CRUDWithBDD.GetResponse@4dbb42b7]" started-at="2022-08-01T14:26:24 IST" name="getOrganization" finished-at="2022-08-01T14:26:24 IST" duration-ms="596" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getOrganization -->
-        <test-method signature="getPatient()[pri:0, instance:CRUDWithBDD.GetResponse@4dbb42b7]" started-at="2022-08-01T13:20:49 IST" name="getPatient" finished-at="2022-08-01T13:20:50 IST" duration-ms="1389" status="PASS">
+        <test-method signature="getPatient()[pri:0, instance:CRUDWithBDD.GetResponse@4dbb42b7]" started-at="2022-08-01T14:26:24 IST" name="getPatient" finished-at="2022-08-01T14:26:25 IST" duration-ms="857" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getPatient -->
-        <test-method signature="getPractitioner()[pri:0, instance:CRUDWithBDD.GetResponse@4dbb42b7]" started-at="2022-08-01T13:20:50 IST" name="getPractitioner" finished-at="2022-08-01T13:20:51 IST" duration-ms="704" status="PASS">
+        <test-method signature="getPractitioner()[pri:0, instance:CRUDWithBDD.GetResponse@4dbb42b7]" started-at="2022-08-01T14:26:25 IST" name="getPractitioner" finished-at="2022-08-01T14:26:26 IST" duration-ms="652" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getPractitioner -->
       </class> <!-- CRUDWithBDD.GetResponse -->
       <class name="CRUDWithBDD.ResponseValidation">
-        <test-method signature="getImmunization()[pri:0, instance:CRUDWithBDD.ResponseValidation@6392827e]" started-at="2022-08-01T13:20:40 IST" name="getImmunization" finished-at="2022-08-01T13:20:43 IST" duration-ms="3366" status="PASS">
+        <test-method signature="getImmunization()[pri:0, instance:CRUDWithBDD.ResponseValidation@6392827e]" started-at="2022-08-01T14:26:15 IST" name="getImmunization" finished-at="2022-08-01T14:26:19 IST" duration-ms="3868" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getImmunization -->
-        <test-method signature="getLocation()[pri:0, instance:CRUDWithBDD.ResponseValidation@6392827e]" started-at="2022-08-01T13:20:43 IST" name="getLocation" finished-at="2022-08-01T13:20:44 IST" duration-ms="667" status="PASS">
+        <test-method signature="getLocation()[pri:0, instance:CRUDWithBDD.ResponseValidation@6392827e]" started-at="2022-08-01T14:26:19 IST" name="getLocation" finished-at="2022-08-01T14:26:19 IST" duration-ms="780" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getLocation -->
-        <test-method signature="getObservation()[pri:0, instance:CRUDWithBDD.ResponseValidation@6392827e]" started-at="2022-08-01T13:20:44 IST" name="getObservation" finished-at="2022-08-01T13:20:44 IST" duration-ms="726" status="PASS">
+        <test-method signature="getObservation()[pri:0, instance:CRUDWithBDD.ResponseValidation@6392827e]" started-at="2022-08-01T14:26:19 IST" name="getObservation" finished-at="2022-08-01T14:26:20 IST" duration-ms="736" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getObservation -->
-        <test-method signature="getOrganisation()[pri:0, instance:CRUDWithBDD.ResponseValidation@6392827e]" started-at="2022-08-01T13:20:44 IST" name="getOrganisation" finished-at="2022-08-01T13:20:45 IST" duration-ms="654" status="PASS">
+        <test-method signature="getOrganisation()[pri:0, instance:CRUDWithBDD.ResponseValidation@6392827e]" started-at="2022-08-01T14:26:20 IST" name="getOrganisation" finished-at="2022-08-01T14:26:21 IST" duration-ms="792" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getOrganisation -->
-        <test-method signature="getPatient()[pri:0, instance:CRUDWithBDD.ResponseValidation@6392827e]" started-at="2022-08-01T13:20:45 IST" name="getPatient" finished-at="2022-08-01T13:20:46 IST" duration-ms="1415" status="PASS">
+        <test-method signature="getPatient()[pri:0, instance:CRUDWithBDD.ResponseValidation@6392827e]" started-at="2022-08-01T14:26:21 IST" name="getPatient" finished-at="2022-08-01T14:26:22 IST" duration-ms="962" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getPatient -->
