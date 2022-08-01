@@ -22,19 +22,7 @@ public class ResponseValidation {
 		 res.then().log().all();
 		
 	}
-/*	
-	@Test
-	public void getPractitioner() {
-		String expData="Bachelor of Science";
-		Response res = when()
-		.get("http://hapi.fhir.org/baseR4/Practitioner?_pretty=true");
-		 String actData=res.jsonPath().get("entry[0].resource.qualification[0].code.text");
-	     System.out.println(actData);
-	     Assert.assertEquals(actData,expData);
-		 res.then().log().all();
-		
-	}
-	*/
+
 	
 	@Test
 	public void getOrganisation() {

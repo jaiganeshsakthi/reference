@@ -1,6 +1,6 @@
 package CRUDWithBDD;
 
-import static io.restassured.RestAssured.when;
+import static io.restassured.RestAssured.*;
 
 import org.testng.annotations.Test;
 
