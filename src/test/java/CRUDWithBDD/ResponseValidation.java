@@ -19,7 +19,7 @@ public class ResponseValidation {
 		 String actData=res.jsonPath().get("entry[0].resource.text.status");
 	     System.out.println(actData);
 	     Assert.assertEquals(actData,expData);
-		 res.then().log().all();
+		// res.then().all();
 		
 	}
 
@@ -32,7 +32,7 @@ public class ResponseValidation {
 		 String actData=res.jsonPath().get("entry[0].resource.name");
 	     System.out.println(actData);
 	     Assert.assertEquals(actData,expData);
-		 res.then().log().all();
+	//	 res.then().log().all();
 		
 	}
 	
@@ -44,7 +44,7 @@ public class ResponseValidation {
 		 String actData=res.jsonPath().get("entry[0].resource.status");
 	     System.out.println(actData);
 	     Assert.assertEquals(actData,expData);
-		 res.then().log().all();
+		// res.then().log().all();
 		
 	}
 	
@@ -57,7 +57,7 @@ public class ResponseValidation {
 		 String actData=res.jsonPath().get("link[0].relation");
 	     System.out.println(actData);
 	     Assert.assertEquals(actData,expData);
-		 res.then().log().all();
+	//	 res.then().log().all();
 		
 	}
 	
@@ -69,7 +69,7 @@ public class ResponseValidation {
 		 String actData=res.jsonPath().get("entry[0].resource.status");
 	     System.out.println(actData);
 	     Assert.assertEquals(actData,expData);
-		 res.then().log().all();
+		// res.then().log().all();
 		
 	}
 
