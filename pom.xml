@@ -63,7 +63,7 @@
 
 
 
-<!-- REST ASSURED  Complete API testing -->
+<!-- REST ASSURED - Complete API testing -->
 <!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
 <dependency>
     <groupId>io.rest-assured</groupId>
