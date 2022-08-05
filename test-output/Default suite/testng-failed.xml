@@ -5,7 +5,7 @@
     <classes>
       <class name="CRUDWithBDD.ResponseValidation">
         <methods>
-          <include name="getOrganisation"/>
+          <include name="getImmunization"/>
         </methods>
       </class> <!-- CRUDWithBDD.ResponseValidation -->
     </classes>
