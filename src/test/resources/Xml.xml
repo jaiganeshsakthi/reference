@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+
+<item type="dict">
+
+<RecordType type="str">PRCP </RecordType>
+-
+
+-<Records type="list">
+-
+
+-<item type="dict">
+
+<PUBH_ACTION_CD type="str">I </PUBH_ACTION_CD>
+
+<PRPR_ID type="str">33190022 </PRPR_ID>
+
+<PRCP_ID type="str">33190 </PRCP_ID>
+
+<PRCP_SSN type="str">511686448 </PRCP_SSN>
+
+<PRCP_LAST_NAME type="str">HOGAN </PRCP_LAST_NAME>
+
+<PRCP_FIRST_NAME type="str">JACQUELINE </PRCP_FIRST_NAME>
+
+<PRCP_MID_INIT type="str">A </PRCP_MID_INIT>
+
+<PRCP_TITLE type="str">LSCSW </PRCP_TITLE>
+
+<PRCP_SEX type="str">F </PRCP_SEX>
+
+<PRCP_BIRTH_DT type="str">12/28/1968 00:00:00.000 </PRCP_BIRTH_DT>
+
+<PRCP_LAST_CHAN_DTM type="str">01/01/1753 00:00:00.000 </PRCP_LAST_CHAN_DTM>
+
+<PRCP_TIER_NO type="int">0 </PRCP_TIER_NO>
+
+<PRCP_LAST_NAME_XLOW type="str">hogan </PRCP_LAST_NAME_XLOW>
+
+<PRCP_MCCY_CTRY type="str"> </PRCP_MCCY_CTRY>
+
+<PRCR_ID type="str">33190 </PRCR_ID>
+
+<PRCP_MCTR_LANG type="str">None </PRCP_MCTR_LANG>
+
+<PRCP_EXTN_ADDR_IND type="str"> </PRCP_EXTN_ADDR_IND>
+
+<PRCP_NPI type="str">1932238490 </PRCP_NPI>
+
+<PRCP_TERM_DT type="str">12/31/9999 00:00:00.000 </PRCP_TERM_DT>
+
+<PRCP_MCTR_TRSN type="str"> </PRCP_MCTR_TRSN>
+
+<PRCP_LOCK_TOKEN type="int">1 </PRCP_LOCK_TOKEN>
+
+<ATXR_SOURCE_ID type="str">01/01/3245 00:30:26.940 </ATXR_SOURCE_ID>
+
+<SYS_LAST_UPD_DTM type="null"> </SYS_LAST_UPD_DTM>
+
+<SYS_USUS_ID type="null"> </SYS_USUS_ID>
+
+<SYS_DBUSER_ID type="null"> </SYS_DBUSER_ID>
+
+</item>
+
+</Records>
+
+</item>

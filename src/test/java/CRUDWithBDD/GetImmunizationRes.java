@@ -8,7 +8,7 @@ public class GetImmunizationRes {
 	@Test
 	public void getImmunization() {
 		when()
-		.get("http://hapi.fhir.org/baseR4/Immunization?_pretty=true")
+		.get("http://hapi.fhir.org/baseR4/Observation?_format=xml&_pretty=true")
 		.then()
 		.assertThat().statusCode(200)
 		.log().all();

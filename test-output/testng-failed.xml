@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="CRUDWithBDD.ResponseValidation">
+      <class name="CRUDWithBDD.ReadDataFromPractionerXml">
         <methods>
-          <include name="getImmunization"/>
+          <include name="reading"/>
         </methods>
-      </class> <!-- CRUDWithBDD.ResponseValidation -->
+      </class> <!-- CRUDWithBDD.ReadDataFromPractionerXml -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

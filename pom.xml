@@ -60,6 +60,13 @@
     <scope>test</scope>
 </dependency>
 
+<!-- https://mvnrepository.com/artifact/org.json/json -->
+<dependency>
+    <groupId>org.json</groupId>
+    <artifactId>json</artifactId>
+    <version>20160810</version>
+</dependency>
+
 
 
 
@@ -96,7 +103,11 @@
     <scope>test</scope>
 </dependency>
 
- <!-- Profiles for suite execution thru cmd line -->
+
+
+
+
+ <!-- Profiles fo suite execution thru cmd line -->
 
 </dependencies>
 
